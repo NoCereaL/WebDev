@@ -1,0 +1,93 @@
+*
+{
+	font-family: 'Telex', sans-serif;
+	font-size: 14px;
+	background-color: #e5e5e5;
+}
+
+a 
+{
+	text-decoration: none;
+	color:black;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color:blue;
+}
+
+.main
+{
+	width:350px;
+	margin: 100px auto;
+	margin-bottom: 10px;
+	background-color: white;
+	padding: 30px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px
+
+}
+.loginbox
+{
+	width:300px;
+	margin: 0 auto;
+	background-color: white;
+
+}
+table
+{
+	width:300px;
+	background-color: white;
+}
+
+td
+{
+	background-color: white;
+}
+
+label
+{
+	background-color: white;
+}
+
+.logo
+{
+	width:230px;
+	margin:0 auto;
+	margin-bottom: 20px;
+	background-color: white;
+}
+.center
+{
+	text-align:center;
+
+}
+
+.text
+{
+	margin-top:0px;
+	text-align: justify;
+	background-color: white;
+}
+
+input[type="text"]
+{
+	width: 210px;
+}
+input[type="password"]
+{
+	width: 210px;
+}
+
+footer
+{
+	text-align: center;
+	width:100%;
+	font-size: 13px;
+}
+.error
+{
+    color:red;
+}
