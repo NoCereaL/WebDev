@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<!--[if IE 8]>               <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta name ="viewport" content="width=device-width, height=device-height">
+
+        
+                <meta name="google-site-verification" content="bCt8J8TrPuiNH6F8ulm4G6gt-IhNrCme5wGPrY5HRvM"/>
+                <title>Air Conditioning</title>
+
+        <meta name = "description" content = "" >
+        <meta name = "keywords" content = "" >
+        <meta name = "author" content = "" >
+   
+                
+        
+        <!-- If they have Meta Theme Colours, add them here: -->
+
+        <!-- End theme colours -->
+
+
+        <link rel="stylesheet" href="https://www.skmoyana.co.uk/media/css/dashboard.css ">
+        <link rel="stylesheet" href="https://www.skmoyana.co.uk/media/css/foundation.css ">
+
+
+        <!-- Add CSS Here  -->
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+      <script src="https://use.fontawesome.com/113882acf8.js"></script>
+      <link rel="stylesheet" href="media/css/swipebox.css">
+      <link rel="stylesheet" href="media/css/vegas.css">
+      <link rel="stylesheet" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+      <link rel="stylesheet" href="media/css/slick-theme.css"/>
+      <link rel="stylesheet" href="media/css/socialfeed.css">
+      <link rel="stylesheet" href="media/css/style.css">
+
+        <!-- End CSS -->
+        
+
+        <link rel="stylesheet" href="https://www.skmoyana.co.uk/media/css/reveal.css">
+        
+        <script src="media/js/jquery.js"></script>
+        <script src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel='shortcut icon' href="https://www.skmoyana.co.uk/media/images/favicon_n.png" type="image/x-icon" />
+
+        <!-- Add JS Files here -->
+
+
+        <!-- End of JS Files -->
+
+    </head>
+    <body>
+          <h1 align="center" style="margin:0px; padding:10px; background:#333; color:#fff; font-family:sans-serif; font-size:12px;"></h1>                       <!-- ADMIN DASHBOARD -->
+            <div id="myModal"  class="reveal tiny" data-reveal> 
+                <div class = "dashlogo">
+    <div class= "cpTitle">Control Panel</div>
+    <div class= "cpSubTitle"></div>
+</div>
+
+<div class = "cpMenu">
+    <div class = "cpButton" tar = "addPage">Add new page</div>
+    <div class = "cpTab" id = "addPage">
+        <form action="https://www.phacs.co.uk/admin/addpage" method="post" accept-charset="utf-8">        <div class = "cpText" >Page title:</div>
+        <input type = "text" id="dtitle" name = "title"><br>
+        <div class = "cpText">Page type:</div>
+        <select name="type" class = "cpTypes">
+                    <option value = "text"   >Text</option>           
+                        <option value = "gallery"   >Gallery</option>           
+                        <option value = "enquiry"   >Enquiry</option>           
+                        <option value = "contact"   >Contact</option>           
+                        <option value = "testimonials"   >Testimonials</option>           
+                        <option value = "gallery_text"   >Gallery text</option>           
+                        <option value = "guestbook"   >Guestbook</option>           
+                        <option value = "blog"   >Blog</option>           
+                    </select><br/>
+        <div class = "cpText">Page parent:</div>
+        <select name = "parent" class="cpTypes">
+              <option value="0">None</option>
+                                  <option value="60">Home</option>
+                                    <option value="63">Services</option>
+                                    <option value="64">Testimonials</option>
+                                    <option value="65">Gallery</option>
+                                    <option value="28">Contact</option>
+                                    <option value="66">Plumbing News</option>
+                                    <option value="78">Blog</option>
+                        </select><br>
+
+        <input type = "submit" value = "Save" id="submit_page" > 
+
+
+
+
+
+
+
+        <div class ="cpPageCounter">Pages left:
+            15        </div>
+    </form>        
+    </div>
+        <div class = "cpButton"><a href = "https://www.phacs.co.uk/stats">Check trafic statistics</a></div>
+        <div class = "cpButton" id="deletepage" id = "deletepage">Delete this page</div>
+    <div class = "cpButton"><a href = "https://www.phacs.co.uk/admin/logout">Logout</a></div>
+</div>
+
+
+            </div>
+
+            <div id="savedModal" class ="reveal" data-reveal> 
+                <span class="message">Page has been saved</span>
+                <span class="small_message">(Click outside to close)</span>
+            </div>
+
+            <!-- ADMIN DASHBOARD -->
+
+            <a href="#" class="second" data-open="savedModal">
+                <div id = "savepage_but" class="shadow"></div>
+            </a>
+
+            <a href="#" class="second" data-open="myModal">
+                <div id = "edit_but" class="shadow"></div>
+            </a>
+          
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-b5243a53-a88e-4ca1-be78-8246f28d668e"></div>
+     <header>
+     <div class="row">
+         
+            <div class="large-5 small-12 columns logo">
+              <a href="home"><img src="media/images/logo.png" alt=""></a>
+            </div>
+            <div class="large-7 small-12 contacts">
+
+                    <div class="contactbox">
+                        <div class="get"><i class="ion-ios-telephone"></i>
+                            <ul>
+                                <li>Phone</li>
+                                <li><a href="tel:01530234169">01530234169</a></li>
+                            </ul>
+                        </div>
+                        <div class="get"><i class="ion-iphone"></i>
+                            <ul>
+                                <li>Mobile</li>
+                                <li><a href="tel:07429229243">07429229243</a></li>
+                            </ul>
+                        </div>
+                        <div class="get"><i class="ion-email"></i>
+                            <ul>
+                                <li>Email</li>
+                                <li><a href="mailto:info@phacs.co.uk">info@phacs.co.uk</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+      </div>
+    </header>
+      <div class="nav">
+         <div class="mobi-ban">
+            <div id="button"><i class="fa fa-bars fa-2x"></i> </div>
+            <a class="phone" title="give us a call" href="tel:07429229243"><i class="ion-ios-telephone"></i></a>
+            <a class="email" title="send us an email" href="mailto:info@phacs.co.uk"><i class="ion-at"></i></a>
+         </div>
+         <div class="row">
+        <nav>
+           <ul id="navsort" >
+           <li class='btn_m '><a class= ' ' order ='home' href='https://www.phacs.co.uk/admin/dashboard/home'>Home</a>
+</li>
+	<li class='btn_m '><a class= ' sub-drop' order ='Services' href='#'>Services</a>
+<ul class='sub-menu'><li><a class= '' order ='Heating' href='https://www.phacs.co.uk/admin/dashboard/Heating'>Heating</a>
+</li><li><a class= '' order ='Emergency' href='https://www.phacs.co.uk/admin/dashboard/Emergency'>Emergency </a>
+</li><li><a class= '' order ='Plumbing' href='https://www.phacs.co.uk/admin/dashboard/Plumbing'>Plumbing</a>
+</li><li><a class= '' order ='Air-Conditioning' href='https://www.phacs.co.uk/admin/dashboard/Air-Conditioning'>Air Conditioning</a>
+</li></ul></li>
+	<li class='btn_m '><a class= ' ' order ='Testimonials' href='https://www.phacs.co.uk/admin/dashboard/Testimonials'>Testimonials</a>
+</li>
+	<li class='btn_m '><a class= ' ' order ='Gallery' href='https://www.phacs.co.uk/admin/dashboard/Gallery'>Gallery</a>
+</li>
+	<li class='btn_m '><a class= ' ' order ='Contact' href='https://www.phacs.co.uk/admin/dashboard/Contact'>Contact</a>
+</li>
+	<li class='btn_m '><a class= ' ' order ='Plumbing-News' href='https://www.phacs.co.uk/admin/dashboard/Plumbing-News'>Plumbing News</a>
+</li>
+	<li class='btn_m '><a class= ' ' order ='Blog' href='https://www.phacs.co.uk/admin/dashboard/Blog'>Blog</a>
+</li>
+	           </ul>
+        </nav>
+         </div>
+      </div>
+            <div class="banner2">
+         <div class="row">
+            <div class="middle">
+               <span>Air Conditioning</span>
+            </div>
+         </div>
+      </div>
+          <section class="home" id="welcome">
+         <div class="row">
+            <div class="main">
+               <div class="medium-8 small-12 columns content">
+                    <div class = "content_edit" style="display:default" id="content_edit">
+<p dir="ltr" style="line-height: 1.38; background-color: rgb(255, 255, 255); margin-top: 12pt; margin-bottom: 0pt; padding: 0pt 0pt 12pt;"><span id="docs-internal-guid-ec9166f6-7fff-747f-9b51-b7acb7a08226" style="caret-color:rgb(0, 0, 0); color:rgb(0, 0, 0)"><strong style="background-color:transparent; color:rgb(29, 30, 31); font-family:arial; font-size:13.999999999999998pt; font-variant-east-asian:normal; font-variant-ligatures:normal; font-variant-position:normal; font-weight:700; vertical-align:baseline; white-space:pre-wrap">Air Conditioning Installation</strong></span></p>
+
+<p dir="ltr" style="line-height: 1.38; background-color: rgb(255, 255, 255); margin-top: 0pt; margin-bottom: 0pt; padding: 0pt 0pt 12pt;"><span id="docs-internal-guid-ec9166f6-7fff-747f-9b51-b7acb7a08226" style="caret-color:rgb(0, 0, 0); color:rgb(0, 0, 0)"><span style="background-color:transparent; color:rgb(85, 85, 85); font-family:arial; font-size:13.999999999999998pt; font-variant-east-asian:normal; font-variant-ligatures:normal; font-variant-position:normal; vertical-align:baseline; white-space:pre-wrap">PHACS has the expertise to install any air conditioning units to ensure your cooling needs are met in your residential or commercial building. From heat pumps, air handling units, and split systems, PHACS has got you covered.&nbsp;</span></span></p>
+
+<p dir="ltr" style="line-height: 1.38; background-color: rgb(255, 255, 255); margin-top: 0pt; margin-bottom: 0pt; padding: 0pt 0pt 12pt;"><span id="docs-internal-guid-ec9166f6-7fff-747f-9b51-b7acb7a08226" style="caret-color:rgb(0, 0, 0); color:rgb(0, 0, 0)">&nbsp;</span></p>
+
+<p dir="ltr" style="line-height: 1.38; background-color: rgb(255, 255, 255); margin-top: 0pt; margin-bottom: 0pt; padding: 0pt 0pt 12pt;"><span id="docs-internal-guid-ec9166f6-7fff-747f-9b51-b7acb7a08226" style="caret-color:rgb(0, 0, 0); color:rgb(0, 0, 0)"><strong style="background-color:transparent; color:rgb(85, 85, 85); font-family:arial; font-size:13.999999999999998pt; font-variant-east-asian:normal; font-variant-ligatures:normal; font-variant-position:normal; font-weight:700; vertical-align:baseline; white-space:pre-wrap">Air Conditioning Service &amp; Maintenance</strong></span></p>
+
+<p dir="ltr" style="line-height: 1.38; background-color: rgb(255, 255, 255); margin-top: 0pt; margin-bottom: 0pt; padding: 0pt 0pt 12pt;"><span id="docs-internal-guid-ec9166f6-7fff-747f-9b51-b7acb7a08226" style="caret-color:rgb(0, 0, 0); color:rgb(0, 0, 0)"><span style="color:rgb(102, 102, 102); font-family:arial; font-size:13.999999999999998pt; font-variant-east-asian:normal; font-variant-ligatures:normal; font-variant-position:normal; vertical-align:baseline; white-space:pre-wrap">PHACS are experienced with all the major brand names and can offer to service your air conditioning units.</span></span></p>
+
+<p dir="ltr" style="line-height: 1.38; background-color: rgb(255, 255, 255); margin-top: 0pt; margin-bottom: 0pt;"><span id="docs-internal-guid-ec9166f6-7fff-747f-9b51-b7acb7a08226" style="caret-color:rgb(0, 0, 0); color:rgb(0, 0, 0)"><span style="background-color:transparent; color:rgb(102, 102, 102); font-family:arial; font-size:13.999999999999998pt; font-variant-east-asian:normal; font-variant-ligatures:normal; font-variant-position:normal; vertical-align:baseline; white-space:pre-wrap">Without consistent maintenance, air conditioning units are vulnerable to deterioration and are at a higher risk of breaking down. As well as having unwanted costs, the absence of air conditioning can cause discomfort for individuals in hot, poorly ventilated rooms or buildings. Emergency repairs are also an inconvenience. This is all avoidable, as long as you have your air conditioning unit maintained.</span></span></p>
+
+<p dir="ltr" style="line-height: 1.38; background-color: rgb(255, 255, 255); margin-top: 0pt; margin-bottom: 0pt;"><span id="docs-internal-guid-ec9166f6-7fff-747f-9b51-b7acb7a08226" style="caret-color:rgb(0, 0, 0); color:rgb(0, 0, 0)">&nbsp;</span></p>
+
+<p dir="ltr" style="line-height: 1.38; background-color: rgb(255, 255, 255); margin-top: 0pt; margin-bottom: 0pt;"><span id="docs-internal-guid-ec9166f6-7fff-747f-9b51-b7acb7a08226" style="caret-color:rgb(0, 0, 0); color:rgb(0, 0, 0)"><span style="background-color:transparent; color:rgb(102, 102, 102); font-family:arial; font-size:13.999999999999998pt; font-variant-east-asian:normal; font-variant-ligatures:normal; font-variant-position:normal; vertical-align:baseline; white-space:pre-wrap">Well maintained air conditioning units also reduce energy bills when working at peak efficiency.&nbsp;</span></span></p>
+
+<p dir="ltr" style="line-height: 1.38; background-color: rgb(255, 255, 255); margin-top: 0pt; margin-bottom: 0pt; padding: 12pt 0pt;"><span id="docs-internal-guid-ec9166f6-7fff-747f-9b51-b7acb7a08226" style="caret-color:rgb(0, 0, 0); color:rgb(0, 0, 0)">&nbsp;</span></p>
+
+<p dir="ltr" style="line-height: 1.38; background-color: rgb(255, 255, 255); margin-top: 0pt; margin-bottom: 0pt; padding: 0pt 0pt 12pt;"><span id="docs-internal-guid-ec9166f6-7fff-747f-9b51-b7acb7a08226" style="caret-color:rgb(0, 0, 0); color:rgb(0, 0, 0)"><strong style="background-color:transparent; color:rgb(85, 85, 85); font-family:arial; font-size:13.999999999999998pt; font-variant-east-asian:normal; font-variant-ligatures:normal; font-variant-position:normal; font-weight:700; vertical-align:baseline; white-space:pre-wrap">Air Conditioning Repair</strong></span></p>
+
+<p dir="ltr" style="line-height: 1.38; background-color: rgb(255, 255, 255); margin-top: 0pt; margin-bottom: 0pt; padding: 0pt 0pt 12pt;"><span id="docs-internal-guid-ec9166f6-7fff-747f-9b51-b7acb7a08226" style="caret-color:rgb(0, 0, 0); color:rgb(0, 0, 0)"><span style="background-color:transparent; color:rgb(85, 85, 85); font-family:arial; font-size:13.999999999999998pt; font-variant-east-asian:normal; font-variant-ligatures:normal; font-variant-position:normal; vertical-align:baseline; white-space:pre-wrap">Plumbing Heating Air Conditioning Services have a team of engineers who can efficiently identify the problem and provide cost-effective resolutions.</span></span></p>
+
+<p dir="ltr" style="line-height: 1.38; background-color: rgb(255, 255, 255); margin-top: 0pt; margin-bottom: 0pt; padding: 0pt 0pt 12pt;"><span id="docs-internal-guid-ec9166f6-7fff-747f-9b51-b7acb7a08226" style="caret-color:rgb(0, 0, 0); color:rgb(0, 0, 0)"><span style="background-color:transparent; color:rgb(85, 85, 85); font-family:arial; font-size:13.999999999999998pt; font-variant-east-asian:normal; font-variant-ligatures:normal; font-variant-position:normal; vertical-align:baseline; white-space:pre-wrap">PHACS also offers air conditioning repair for a wealth of problems, including water leaks, gas leaks, not cooling, ice appearing, unpleasant smells, restricted air-flow, and more!&nbsp;</span></span></p>
+
+<p dir="ltr" style="line-height: 1.38; background-color: rgb(255, 255, 255); margin-top: 0pt; margin-bottom: 0pt; padding: 0pt 0pt 12pt;"><span id="docs-internal-guid-ec9166f6-7fff-747f-9b51-b7acb7a08226" style="caret-color:rgb(0, 0, 0); color:rgb(0, 0, 0)">&nbsp;</span></p>
+
+<p dir="ltr" style="line-height: 1.38; background-color: rgb(255, 255, 255); margin-top: 0pt; margin-bottom: 12pt;"><span id="docs-internal-guid-ec9166f6-7fff-747f-9b51-b7acb7a08226" style="caret-color:rgb(0, 0, 0); color:rgb(0, 0, 0)"><span style="background-color:transparent; color:rgb(85, 85, 85); font-family:arial; font-size:13.999999999999998pt; font-variant-east-asian:normal; font-variant-ligatures:normal; font-variant-position:normal; vertical-align:baseline; white-space:pre-wrap">.</span></span></p>
+
+<p>&nbsp;</p>
+</div>               </div>
+                              <div class="medium-4 small-12 columns images">
+                  <img src="media/images/contentimg.jpg">
+                  <a href="https://www.checkatrade.com/PlumbingHeatingAirConditioningServicesLt/" target="blank"><img src="media/images/checkatrade.jpg"></a>
+               </div>
+                         </div>
+         </div>
+      </section>
+      <section class="boxes" data-equalizer>
+
+          <div class="medium-4 columns box one" data-equalizer-watch>
+
+              <div class="text">
+                 <a href="Plumbing"> <h3>Plumbing</h3></a>
+
+              </div>
+          </div>
+          <div class="medium-4 columns box two" data-equalizer-watch>
+              <div class="text">
+                  <a href="Heating"> <h3>Heating</h3></a>
+
+              </div>
+          </div>
+          <div class="medium-4 columns box three" data-equalizer-watch>
+
+              <div class="text">
+                 <a href="Air-Conditioning"> <h3>Air Conditioning</h3></a>
+
+              </div>
+          </div>
+      </section>
+      <section class="accred">
+        <div class="small-12 columns" data-equalizer>
+            <h2>Accreditations</h2>
+            <hr>
+            <div class="small-12 columns logos">
+              <a href="" target="blank"><img src="media/images/aphc.jpg"></a>
+              <a href="https://www.watersafe.org.uk/search/?q=LE67+4EQ" target="blank"><img src="media/images/watersafe.png"></a>
+              <a href="" target="blank"><img src="media/images/bpec.png"></a>
+              <a href="" target="blank"><img src="media/images/gassafe.jpg"></a>
+          </div>
+         </div>
+      </section>
+
+      <section class="why">
+         <div class="row" data-equalizer>
+            <div class="medium-4 columns imgReason" data-equalizer-watch>
+               <!-- Design Feature -->
+            </div>
+            <div class="medium-8 ssmall-12 columns" data-equalizer-watch>
+               <h2>Why choose Plumbing Heating Air Conditioning Services Ltd?</h2>
+               <ol>
+                  <li>
+                     <h3>Great Rates & Quotes</h3>
+                     <p>Here at Plumbing Heating Air Conditioning Services Ltd we strive to give all of our customers the best quotes we can, and constantly research our competitors so that we can keep doing so, time and time again. Are you looking for a plumbing and heating quote? Look no further!</p>
+                  </li>
+                  <li>
+                     <h3>A Name You Can Rely On</h3>
+                     <p>Plumbing Heating Air Conditioning Services Ltd are a company you can always rely on. We work constantly on improving our service so that our customers know they can trust us to carry out our work with little disruption to their daily lives.</p>
+                  </li>
+                  <li>
+                     <h3>A Time Served Team</h3>
+                     <p>All of our team are highly skilled in the plumbing and heating trade and have built up a wealth of experience over the last several years. No job is too demanding for us as we have all been trained to deal with every situation that the plumbing and heating trade can throw at us!</p>
+                  </li>
+               </ol>
+            </div>
+         </div>
+      </section>
+      <div id="mapbox">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2417.025137845849!2d-1.3505933841853255!3d52.713691479851384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879e28cf51692e9%3A0x9bcbe0bc2ebadb12!2s4%20John%20Cooper%20Way%2C%20Coalville!5e0!3m2!1sen!2suk!4v1580210943827!5m2!1sen!2suk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+      <div class="socialbar">
+         <div class="row">
+            <div class="medium-6 small-12 columns">
+               <p>SOCIAL MEDIA</p>
+            </div>
+            <div class="medium-6 small-12 columns">
+               <div class="socialicons">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=www.plumbingheatingairconditioningservicesltd.co.uk" target="blank"><i class="social ion-social-facebook"></i></a>
+                  <a href="https://twitter.com/home?status=Hey!%20Check%20out%20Plumbing Heating Air Conditioning Services Ltds%20new%20website.%20www.plumbingheatingairconditioningservicesltd.co.uk" target="blank"><i class="social ion-social-twitter"></i></a>
+                  <a href="https://www.linkedin.com/shareArticle?mini=true&url=www.plumbingheatingairconditioningservicesltd.co.uk&title=Plumbing Heating Air Conditioning Services Ltd&summary=Hey,%20take%20a%20look%20at%20Plumbing Heating Air Conditioning Services Ltd's%20new%20website.&source=" target="blank"><i class="social ion-social-linkedin"></i></a>
+                  <a href="https://plus.google.com/share?url=www.plumbingheatingairconditioningservicesltd.co.uk" target="blank"><i class="social ion-social-googleplus"></i></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div class="row">
+            <div class="large-6 medium-6 columns">
+               <h4>About Plumbing Heating Air Conditioning Services Ltd</h4>
+               <hr>
+               <p class="about">Our mission is to provide the residents of Leicestershire with a no hassle plumbing and heating service where all work exceeds expectations, meets deadlines and offers excellent value for money. We work very closely with our clients to ensure complete customer satisfaction.</p>
+            </div>
+            <div class="large-3 medium-3 columns">
+               <h4>Get in touch</h4>
+               <hr>
+               <p><b>Phone: </b> 01530234169</p>
+               <p><b>Mobile:</b> 07429229243</p>
+               <p><b>Email:</b> info@phacs.co.uk</p>
+            </div>
+            <div class="large-3 medium-3 columns">
+               <h4>FIND US</h4>
+               <hr>
+              <p>4 John Cooper Way</p>                            <p>Coalville</p>              <p>Leicestershire</p>              <p>LE67 4EQ</p>            </div>
+         </div>
+      </footer>
+      <div class="amcs">
+         <div class="row">
+            <div class="large-6 columns left">
+               <p>Plumbing Heating Air Conditioning Services Ltd - <span class="year"></span></p>
+            </div>
+            <div class="large-6 columns right">
+               <p class="ar">Website Designed, Developed and Maintained by New World Digital Media<br></p>
+            </div>
+         </div>
+      </div>
+      <!-- Code Here (jQuery Includes at the bottom) -->
+      <!-- JS File Includes -->
+
+      <script src="media/js/vegas.js"></script>
+      <script src="media/js/dot.js"></script>
+      <script src="media/js/moment.js"></script>
+      <script src="media/js/codebird.js"></script>
+      <script src="media/js/socialfeed.js"></script>
+      <script src="media/js/swipebox.js"></script>
+      <script src="media/js/what-input.js"></script>
+
+      <script src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+      <script type="text/javascript" src="media/js/slick.js"></script>
+      <script type="text/javascript">
+               ;( function( $ ) {
+         
+            $( '.swipebox' ).swipebox();
+         
+         } )( jQuery );
+      </script>
+      <script src="media/js/scripts.js"></script>
+      <!-- Google Maps -->
+      <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBZeJv1O4j2kVSo7UdsO5GdPj7gLZn_7d4&extension=.js'></script>
+      <script>var address = "4 John Cooper Way, LE67 4EQ";</script><!--Create a div with an id of map, make sure you give it a width and height--><!--Create a div with an id of map, make sure you give it a width and height-->
+      <script src="media/js/map.js"></script>
+   
+
+        <script src="https://www.phacs.co.uk/media/js/foundation.js"></script>
+        <script src="https://www.phacs.co.uk/media/js/app.js"></script>
+        <script src="https://www.phacs.co.uk/media/bower_components/modernizr/modernizr.js"></script>
+
+        <script src="https://www.phacs.co.uk/media/js/dashboard.js "></script>
+<script src="https://www.phacs.co.uk/media/js/header.js "></script>
+<script src="https://www.phacs.co.uk/media/js/vendor/jupload/js/vendor/jquery.ui.widget.js "></script>
+<script src="https://www.phacs.co.uk/media/js/vendor/jupload/js/jquery.iframe-transport.js "></script>
+<script src="https://www.phacs.co.uk/media/js/vendor/jupload/js/jquery.fileupload.js "></script>
+            <input type="hidden" id="page_slug" value="Air-Conditioning">
+               
+        </div> 
+      
+        <script src="https://www.phacs.co.uk/media/js/vendor/ckeditor/ckeditor.js "></script>
+            <script>
+                $(document).ready(function()
+                    {$('.content_edit').attr('contenteditable', 'true');
+                });
+            </script>        
+
+                   <script>
+    </script>
+        <input type ="hidden" name="domain" value="www.phacs.co.uk">
+  </body>
+  </html>
